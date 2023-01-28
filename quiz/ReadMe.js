@@ -35,7 +35,7 @@ form.addEventListener('submit', e =>{
             output++;
             
         }
-    }, 100);
+    }, 150);
     
 });
 
