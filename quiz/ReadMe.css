@@ -10,6 +10,9 @@ body > div.quiz.py-4.bg-primary > div > h2 {
     max-width:730px;
 }
 
-body{
-    background-color: aquamarine;
+
+
+body > div.quiz.py-4.bg-primary > div > form > div.text-ceter {
+    margin-left:600px;
+    
 }
