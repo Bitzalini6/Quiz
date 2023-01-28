@@ -1,0 +1,15 @@
+.lead {
+    font-weight:bold;
+    background-color:antiquewhite;
+    width: auto;
+}
+
+body > div.quiz.py-4.bg-primary > div > h2 {
+    font-size:50px;
+    background-color: black;
+    max-width:730px;
+}
+
+body{
+    background-color: aquamarine;
+}

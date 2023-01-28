@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Quiz </title>
+    
+</head>
+<body>
+
+    <!--top section-->
+    <div class="intro py-3 bg-white text-center">
+<div class="container">
+    <h2 class="text-primary display-3 my-4">Basic Programming Test</h2>
+</div>
+    </div>
+
+    <!--Result section-->
+    <div class="result py-4 d-none bg-light text-center">
+<div class="container lead">
+    <p>You scored <span class="text-primary display-3 p-3 ">0%</span> in the general knowledge test.</p>
+</div>
+
+    </div>
+
+<!-- Quizz Section-->
+<div class="quiz py-4 bg-primary">
+    <div class="container">
+        <h2 class="my-5 text-white">
+            Answer the following questions:
+        </h2>
+        <form  class="quiz-form text-light">
+
+            <!-- Question number 01 -->
+            <div class="my-5">
+                <p class="lead font-weight-normal text-black " >1. What does a computer language compiler do?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="A" checked>
+                    <label class="form-check-label text-black">A. A compiler checks the program source code for errors at run-time.</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="B" >
+                    <label class="form-check-label text-black">B. A compiler complies and executes a program.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="C" >
+                    <label class="form-check-label text-black">C. Takes the a source files as input and produces an executable program as output.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q1" value="D" >
+                    <label class="form-check-label text-black">D. A compiler translates a program written in high level language to bytes at run-time.</label>
+                </div>
+
+            </div>
+            <!--Question number 02 -->
+            <div class="my-5">
+                <p class="lead font-weight-normal text-black">2. Which of the following is TRUE about these Characters?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="A" checked>
+                    <label class="form-check-label text-black">A. Carriage return means to return to the beginning of the current line without advancing downward.
+                    </label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="B" >
+                    <label class="form-check-label text-black">B. Linefeed means to advance downward to the next line; Used as "newline", it terminates lines.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="C" >
+                    <label class="form-check-label text-black">C. Form feed means advance downward to the next "page". It was commonly used as page separators.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q2" value="D" >
+                    <label class="form-check-label text-black">D. All the above</label>
+                </div>
+
+            </div>
+            <!--Question number 03-->
+            <div class="my-5">
+                <p class="lead font-weight-normal text-black">3.Which is TRUE about Comments in Program?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="A" checked>
+                    <label class="form-check-label text-black">A. Comments Help improve the readability of the program.</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="B" >
+                    <label class="form-check-label text-black">B. Comments increase the execution speed of the program.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="C" >
+                    <label class="form-check-label text-black">C. Comments decrease the execution speed of the program.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q3" value="D" >
+                    <label class="form-check-label text-black">D. More than one is correct.</label>
+                </div>
+
+            </div>
+            <!--Question number 04-->
+            <div class="my-5">
+                <p class="lead font-weight-normal text-black">4. What is TRUE about variables?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="A" checked>
+                    <label class="form-check-label text-black">A. A Constant is a variable whose value cannot be changed once it is initialized.</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="B" >
+                    <label class="form-check-label text-black">B. That amount and value of data that a variable can hold is determined by its data type.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="C" >
+                    <label class="form-check-label text-black">C. More than one is correct.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q4" value="D" >
+                    <label class="form-check-label text-black">D. All programming languages support variable names that begins with a number.</label>
+                </div>
+
+            </div>
+             <!--Question number 05-->
+             <div class="my-5">
+                <p class="lead font-weight-normal text-black">5. A program can be broken down into a series of statements. In a programming language, a statement is...</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q5" value="A" checked>
+                    <label class="form-check-label text-black">A. A simple command that can involve more that one function or operators.</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q5" value="B" >
+                    <label class="form-check-label text-black">B. A simple command that causes something to happen.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q5" value="C" >
+                    <label class="form-check-label text-black">C. A simple command that produces a value.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q5" value="D" >
+                    <label class="form-check-label text-black">D. Any of the above.</label>
+                </div>
+
+
+
+            </div>
+
+            <!--Question number 06-->
+            <div class="my-5">
+                <p class="lead font-weight-normal text-black">6. Statements in a program like Java are grouped using the opening brace ({) and closing brace (}). A group of statements organized between these characters is called .....</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q6" value="A" checked>
+                    <label class="form-check-label text-black">A. Local Statement </label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q6" value="B" >
+                    <label class="form-check-label text-black">B. Block Statement</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q6" value="C" >
+                    <label class="form-check-label text-black">C. Region Statement </label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q6" value="D" >
+                    <label class="form-check-label text-black">D. Group Statement</label>
+                </div>
+
+            </div>
+
+            <!--Question number 07-->
+            <div class="my-5">
+                <p class="lead font-weight-normal text-black">7. Which of the following statements is TRUE</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q7" value="A" checked>
+                    <label class="form-check-label text-black">A. Generally once a variable is initialized, it cannot be changed later in most of the programming languages.</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q7" value="B" >
+                    <label class="form-check-label text-black">B. All programming languages require to declare the variable first before it can be used.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q7" value="C" >
+                    <label class="form-check-label text-black">C. If a variable is not initialized, generally it will be assigned a default value in most of the programming languages.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q7" value="D" >
+                    <label class="form-check-label text-black">D. You can change the datatype of a variable at runtime in all programming languages.</label>
+                </div>
+
+            </div>
+
+             <!--Question number 08-->
+             <div class="my-5">
+                <p class="lead font-weight-normal text-black">8. Interpreter is used at.......?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q8" value="A" checked>
+                    <label class="form-check-label text-black">A. Compile Time</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q8" value="B" >
+                    <label class="form-check-label text-black">B. Build Time</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q8" value="C" >
+                    <label class="form-check-label text-black">C. Runtime Time</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q8" value="D" >
+                    <label class="form-check-label text-black">D. Any of the above.</label>
+                </div>
+
+            </div>
+
+             <!--Question number 09-->
+             <div class="my-5">
+                <p class="lead font-weight-normal text-black">9. Which is TRUE about Expressions?
+                </p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q9" value="A" checked>
+                    <label class="form-check-label text-black">A. An expression can be any combination of variables, literals, and operators.</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q9" value="B" >
+                    <label class="form-check-label text-black">B. An expression can be any combination of variables, literals, operators and methods also.</label>
+                </div>
+
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q9" value="C" >
+                    <label class="form-check-label text-black">C. An expression is a statement that can convey a value.The value conveyed by an expression is called a return value.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q9" value="D" >
+                    <label class="form-check-label text-black">D. All the above.</label>
+                </div>
+
+            </div>
+
+             <!--Question number 10-->
+             <div class="my-5">
+                <p class="lead font-weight-normal text-black">10. Which is FALSE about literals in a program?</p>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q10" value="A" checked>
+                    <label class="form-check-label text-black">A. A literal can a boolean, text, number or character values and directly represents a value.</label>
+                </div>
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q10" value="B" >
+                    <label class="form-check-label text-black">B. The value of a literal does consume memory just like a variable.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q10" value="C" >
+                    <label class="form-check-label text-black">C. A literal can be used in an expression.</label>
+                </div>
+
+                <div class="form-check my-2 text-white-50">
+                    <input type="radio" name="q10" value="D" >
+                    <label class="form-check-label text-black">D. A literal can be either on the right or left side of an expression.</label>
+                </div>
+
+            </div>
+
+            
+            <div class="text-ceter">
+                <input type="submit" class="'btn btn-light" >
+        
+            </div>
+        </form>
+
+        
+        
+    </div>
+</div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
