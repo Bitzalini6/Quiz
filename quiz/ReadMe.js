@@ -1,4 +1,4 @@
-const correctAnswers = ['C', 'D', 'A', 'C', 'D', 'B', 'C', 'C', 'D', 'D'];
+const correctAnswers = ['C', 'D', 'A', 'C', 'D', 'B', 'C', 'C', 'D', 'D']; // the quiz correct answers
 const form = document.querySelector('.quiz-form');
 const result = document.querySelector('.result');
 let mySound = new Audio('scoreSound.mp3');
@@ -15,7 +15,7 @@ form.addEventListener('submit', e =>{
     userAnswers.forEach((answer, index) => {
         if(answer === correctAnswers[index]){
             score += 10; 
-        }
+        } //checking if the answers are correct and adding 10 points to the score everytime if the case
 
 
 
@@ -41,17 +41,5 @@ form.addEventListener('submit', e =>{
 
 
 
-//window object (globaj object)
 
-// window.console.log('hello')
-
-// document.querySelector('form')
-
-// setTimeout(() =>{
-// alert('hello,ninjas')
-// }, 3000);
-
-// setInterval(() => {
-//     console.log('hello');
-// }, 2000);
 
